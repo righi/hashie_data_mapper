@@ -28,10 +28,12 @@ module HashieDataMapper
     #   p.last_name  # => 'Nostrils'
     #   p.email      # => NoMethodError
     module IgnoreUndeclared
-		def initialize_attributes(attributes)
-			attributes.each_pair do |att, value|
-				self[att] = value if self.class.property?(att)
-			end if attributes
-		end
+      def initialize_attributes(attributes)
+        attributes.each_pair do |att, value|
+          if self.class.property?(att) || (self.class.respond_to?(:translations) && self.class.translations.include?(att.to_sym))
+            self[att] = value
+          end
+        end if attributes
+      end
 	end
 end
