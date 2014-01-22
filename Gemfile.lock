@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hashie_data_mapper (0.1.1)
+    hashie_data_mapper (0.1.2)
       hashie (>= 1.2.0)
 
 GEM

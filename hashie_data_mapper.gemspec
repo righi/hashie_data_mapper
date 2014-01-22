@@ -1,4 +1,7 @@
-require File.expand_path('../lib/hashie_data_mapper/version', __FILE__)
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+require 'hashie_data_mapper/version'
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Michael Amor Righi"]
