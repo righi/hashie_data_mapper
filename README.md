@@ -1,4 +1,4 @@
-hashie_data_mapper
+Hashie Data Mapper [![Build Status](https://travis-ci.org/righi/hashie_data_mapper.png?branch=master)](https://travis-ci.org/righi/hashie_data_mapper) [![Dependency Status](https://gemnasium.com/righi/hashie_data_mapper.png)](https://gemnasium.com/righi/hashie_data_mapper)
 ==================
 
 An extension to the Hashie Ruby Gem for Working with Data Mappers.
