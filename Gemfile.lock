@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    hashie_data_mapper (0.1.0)
-      hashie (= 2.0.5)
+    hashie_data_mapper (0.1.1)
+      hashie (>= 1.2.0)
 
 GEM
   remote: http://rubygems.org/
