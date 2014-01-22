@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake', '~> 0.9.2'
   gem.add_development_dependency 'rspec', '~> 2.5'
 
-  gem.add_dependency 'hashie', '2.0.5'
+  gem.add_dependency 'hashie', '>= 1.2.0'
 end
