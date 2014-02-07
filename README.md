@@ -12,7 +12,7 @@ Installation
 
 Add this to your Gemfile:
 
-    gem 'hashie_data_mapper', git: "https://github.com/righi/hashie_data_mapper.git", tag: 'v0.1.2'
+    gem 'hashie_data_mapper', '~ 0.1.4'
 
 
 Usage
