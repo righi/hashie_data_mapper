@@ -12,7 +12,7 @@ Installation
 
 Add this to your Gemfile:
 
-    gem 'hashie_data_mapper', '~ 0.1.4'
+    gem 'hashie_data_mapper', '~> 0.1.4'
 
 
 Usage
